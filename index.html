@@ -1,12 +1,206 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Девайс</title>
+</head>
+<body>
+<header class="page-header">
+  <img class="logo" src="" alt="Логотип магазина device">
+  <form class="search-main">
+    <input type="text" id="search-main" name="search-main" placeholder="Текст поиска">
+    <button class="button button-search-main" type="submit"> Найти</button>
+  </form>
+  <ul class="user-menu">
+    <li class="menu-item">
+      <a class="menu-link" href="#">Войти</a>
+    </li>
+    <li class="menu-item">
+      <a class="menu-link" href="#">Сравнить</a>
+    </li>
+    <li class="menu-item">
+      <a class="menu-link" href="#">Корзина</a>
+    </li>
+  </ul>
+  <nav class="navigation">
+    <a class="navigation-link" href="#">Каталог товаров</a>
+    <a class="navigation-link" href="#">Доставка</a>
+    <a class="navigation-link" href="#">Гарантия</a>
+    <a class="navigation-link" href="#">Контакты</a>
+  </nav>
+</header>
+<main class="main-index">
+  <h1 class="visualluy-hidden">Интернет магазин device</h1>
+  <section class="first">
+    <h2 class="visually-hidden">Промо-товары</h2>
+    <img class="slider-image" src="">
+    <button class="slider-button slider-prev" type="button">
+      <span class="visually-hidden"> редыдущий товар</span>
+    </button>
+    <img class="slider-image" src="">
+    <button class="slider-button slider-next" type="button">
+      <span class="visually-hidden">Следующий товар</span>
+    </button>
+    <ol class="promo-items">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+ 
+      <li class="promo-item">
+        <h3 class="promo-heading"> Порхает как бабочка, жалит как пчела!</h3>
+        <p class="first-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+          замаскированным под стандартную камеру.</p>
+        <a class="about-item" href="#">Подробнее</a>
+        <div>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+        </div>
+        <input class="item-number-get" type="radio" name="item-number" checked>
+        <input class="item-number-get" type="radio" name="item-number">
+        <input class="item-number-get" type="radio" name="item-number">
+        <b class="info-about"> 800 м</b>
+        <span class="info-about-text">Дальность полета</span>
+        <b class="info-about">50 м</b>
+        <span class="info-about-text">Радиус поражения</span>
+      </li>
 
-  </body>
+
+      <li class="promo-item">
+        <h3 class="promo-heading">Худеем правильно!</h3>
+        <p class="first-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+        <a class="about-item" href="#">Подробнее</a>
+        <div>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+        </div>
+        <input class="item-number-get" type="radio" name="item-number">
+        <input class="item-number-get" type="radio" name="item-number"checked>
+        <input class="item-number-get" type="radio" name="item-number">
+        <b class="info-about"> 48 часов</b>
+        <span class="info-about-text">Без подзарядки</span>
+      </li>
+
+
+      <li class="promo-item">
+        <h3 class="promo-heading">Делай селфи, как Бен Стиллер! </h3>
+        <p class="first-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+        <a class="about-item" href="#">Подробнее</a>
+        <div>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+          <button type="button"><span class="vi">Gthdsq ckfql</span></button>
+        </div>
+        <input class="item-number-get" type="radio" name="item-number">
+        <input class="item-number-get" type="radio" name="item-number">
+        <input class="item-number-get" type="radio" name="item-number" checked>
+        <b class="info-about"> 8,5 м</b>
+        <span class="info-about-text">Длина палки</span>
+        <b class="info-about">5 кг</b>
+        <span class="info-about-text">Вес палки</span>
+        <b class="info-about">Карбон</b>
+        <span class="info-about-text">Материал</span>
+      </li>
+
+
+    </ol>
+  </section>
+  <section class="second">
+    <h2 class="visually-hidden">Список разновидностей товаров</h2>
+    <ul class="category-list">
+      <li class="category-item">
+        <a class="category-link" href="#">Виртуальная реальность</a>
+        <a class="category-link" href="#">Моноподы для селфи</a>
+        <a class="category-link" href="#">Экшн-камеры</a>
+        <a class="category-link" href="#">Фитнес-браслеты</a>
+        <a class="category-link" href="#">Умные часы</a>
+        <a class="category-link" href="#">Квадрокоптеры</a>
+      </li>
+    </ul>
+  </section>
+  <section class="services">
+    <h2 class="visually-hidden">Сервисы</h2>
+    <h3 class="service-heading">Доставка</h3>
+    <ul class="service-list">
+      <li class="service-item">
+        <p class="service-about">
+          Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+          заработаем, поднимая его на ваш этаж.
+        </p>
+      </li>
+    </ul>
+    <ul class="service-navigation-list">
+      <li class="service-navigation-item">
+        <button class="service-navigation-button" type="button">Доставка</button>
+        <button class="service-navigation-button" type="button">Гарантия</button>
+        <button class="service-navigation-button" type="button">Кредит</button>
+      </li>
+    </ul>
+  </section>
+  <div class="item-delivery">Доставим редкий товар под заказ</div>
+  <button class="info" type="button">
+    <span class="visually-hidden">Посмотреть дополнитульную информацию</span>
+  </button>
+  <section class="contacts">
+    <h2 class="visually-hidden">Информация о контактах</h2>
+    <h3 class="info-heading">О нас</h3>
+    <ul class="info-heading-list">
+      <li class="info-heading-item">
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+        <b>Меловые линии</b>
+        <b>СДИК</b>
+        <b>ТоксБерри</b>
+        <a class="about-us" href="#">Подробнее о нас</a>
+      </li>
+    </ul>
+    <h3 class="info-heading">Контакты</h3>
+    <ul class="info-heading-list">
+      <li class="info-heading-item">
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки. </p>
+        <b>Интернет-магазин «Девайс»</b>
+        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        <a class="contact-telephone-address" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <b>Время работы</b>
+        <span>пн—пт: с 10:00 до 22:00</span>
+        <span>сб—вс: с 10:00 до 19:00</span>
+        <a class="link-msg" href="#">Напишите нам</a>
+      </li>
+    </ul>
+  </section>
+  <section class="mailing-list">
+    <h2 class="visually-hidden">Рассылка</h2>
+    <h3 class="mailing-list-heading">Подпишитесь на рассылку</h3>
+    <p class="mailing-list-heading-text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами,
+      распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+    <form>
+      <input type="text" id="mailing-email" name="mailing-email-main" placeholder="Ваш e-mail">
+      <button class="button button-mailing-email" type="submit"> Подписаться</button>
+    </form>
+    <span class="mailing-text-free">Это бесплатно</span>
+  </section>
+</main>
+<footer class="page-footer">
+  <section class="footer-contacts">
+    <h2 class="visually-hidden">Контакты</h2>
+    <img class="footer-contacts-logo" src="#" alt="Логотип интернет магазина device">
+    <address class="footer-contacts-address>"
+    <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+    <a class="footer-link" href="#">Доставка</a>
+    <a class="footer-link" href="#">Гарантия</a>
+    <a class="footer-link" href="#">Контакты</a>
+    <a class="contact-telephone-address" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    <div class="footer-social">
+      <a class="footer-button" href="#">
+        <span class="visually-hidden">Фейсбук</span>
+      </a>
+      <a class="footer-button" href="#">
+        <span class="visually-hidden">Инстаграмм</span>
+      </a>
+      <a class="footer-button" href="#">
+        <span class="visually-hidden">Твиттер</span>
+      </a>
+    </div>
+  </section>
+</footer>
+</body>
 </html>
