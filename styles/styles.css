@@ -1,0 +1,212 @@
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+font-family: "Raleway" , sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  background-color: #ffffff;
+}
+.page-header{
+  background-color: #FFE17F;
+  color: black;
+}
+.user-menu-link{
+  font-family: "Rubik" , sans-serif;
+  color:inherit;
+  font-weight: 400;
+  text-decoration: none;
+}
+.search-main{
+  font-family: "Rubik" , sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+}
+.navigation-link{
+  line-height: 21px;
+  color:inherit;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.promo-heading{
+  font-size: 50px;
+  line-height: 50px;
+  color:black;
+}
+.promo-description{
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color:#444444;
+}
+.button-yellow{
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #000000;
+  background-color:#FFE17F ;
+}
+.promo-characteristic-list{
+  font-family: "Rubik", sans-serif;
+}
+.promo-characteristic-description{
+  font-size:36px;
+  color:black;
+}
+.promo-characteristic-term{
+  font-size:16px;
+}
+.categories-link{
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color:black;
+  text-decoration: none;
+}
+.services-info-heading{
+  font-size: 50px;
+  line-height: 50px;
+  color: black;
+}
+.services-info-description{
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.services-info-list{
+  background-color: #F0F0F0;
+}
+.on-order{
+
+}
+.on-order-product{
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: black;
+  background-color: #F0F0F0;
+}
+.about-us-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: black;
+}
+.contacts-heading{
+  font-size: 50px;
+  line-height: 50px;
+  color: black;
+}
+.about-us-heading-description{
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.about-us-companies{
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  color:black;
+  letter-spacing: -0.02em;
+}
+.contacts-paragraph{
+font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.contacts-info-heading{
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.contacts-paragraph{
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contacts-phone{
+  color:#444444;
+}
+.subscription{
+  background-color: #F0F0F0;
+}
+.subscription-heading{
+  font-size: 50px;
+  line-height: 50px;
+  color:black;
+}
+.subscription-email{
+  font-family: "Rubik",sans-serif;
+  font-weight: 400;
+}
+.subscription-button{
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+}
+.subscription-description{
+  font-family: "Rubik",sans-serif;
+  font-weight: 400;
+}
+.subscription-info{
+  font-family: "Rubik",sans-serif;
+  font-weight: 400;
+}
+.page-footer{
+  background-color:#444444;
+}
+.footer-address{
+  font-family: "Rubik",sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#ffffff;
+  font-style: normal;
+}
+.footer-navigation-link{
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color:#ffffff;
+  line-height: 21px;
+}
+.footer-phone{
+  color:#ffffff;
+  font-family: "Rubik",sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
