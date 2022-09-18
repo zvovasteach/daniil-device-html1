@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  background-color: #ffffff;
+}
+
+.page-header {
+  background-color: #ffe17f;
+  color: #000000;
+}
+
+.user-menu-link {
+  font-family: "Rubik", sans-serif;
+  color: inherit;
+  font-weight: 400;
+}
+
+.search-main {
+  font-family: "Rubik", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.search-input::placeholder {
+  color: #000000;
+}
+
+.cart-number {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.navigation-link {
+  line-height: 21px;
+  color: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.promo-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.promo-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+.promo-characteristic-list {
+  font-family: "Rubik", sans-serif;
+}
+
+.promo-characteristic-description {
+  font-size: 36px;
+  color: #000000;
+}
+
+.promo-characteristic-term {
+  font-size: 16px;
+}
+
+.categories-link {
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.services-info-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.services-info-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.services {
+  background-color: #f0f0f0;
+}
+
+.on-order-product {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #f0f0f0;
+}
+
+.about-us-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.contacts-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.about-us-heading-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.about-us-companies {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+  letter-spacing: -0.02em;
+}
+
+.contacts-paragraph {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contacts-info-heading {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contacts-phone {
+  text-decoration-line: underline;
+  color: #444444;
+}
+
+.subscription {
+  background-color: #f0f0f0;
+}
+
+.subscription-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.subscription-email {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.subscription-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.subscription-info {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.page-footer {
+  background-color: #444444;
+}
+
+.footer-address {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.footer-navigation-link {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 21px;
+}
+
+.footer-phone {
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+.button-yellow {
+  text-transform: uppercase;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #000000;
+  background-color: #ffe17f;
+}
+
+.services-controls-button {
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #000000;
+  background-color: #ffe17f;
+}
+
+.subscription-button {
+  font-weight: 800;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.search-main-button {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
